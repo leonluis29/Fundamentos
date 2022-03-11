@@ -1,3 +1,4 @@
+// Programa creado por el profesor Stalin Francis
 #include<iostream>
 using namespace std;
 
