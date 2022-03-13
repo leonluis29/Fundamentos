@@ -1,5 +1,4 @@
-
-
+// Creado por Girabel Peñafiel
 #include<iostream>
 using namespace std;
 int main (){
