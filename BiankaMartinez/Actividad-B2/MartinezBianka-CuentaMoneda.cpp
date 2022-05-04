@@ -15,7 +15,7 @@ int main()
         if(y==0.10)
         {
                 d1=d1+1;
-                e1=e1+x;
+                e1=e1+y;
 
 
         }else{
@@ -27,9 +27,10 @@ int main()
 
         }while(d<m);
 	cout<<"\m\tResultado\m\m"<<endl;
-	cout<<"Cantidad de monedas ingresadas: "<<d<<endl;	  cout<<"Cantidad total de dinero contado: "<<a<<endl;	cout<<"Cantidad total de monedas de $0.10 ingresadas: "<<c2<<endl;	
-	cout<<"Cantidad total en dinero de las monedas de $0.10: "<<a2<<endl;
-	cout<<"Cantidad total de monedas de $0.10 ingresadas: "<<c1<<endl;
-	cout<<"Cantidad total en dinero de las monedas de $0.25: "<<a1<<endl;
-	return 0;
+cout<<"Cantidad de monedas ingresadas: "<<d<<endl;	
+cout<<"Cantidad total de dinero contado: "<<e<<endl;	cout<<"Cantidad total de monedas de $0.10 ingresadas: "<<d2<<endl;
+	cout<<"Cantidad total en dinero de las monedas de $0.10: "<<e2<<endl;
+	cout<<"Cantidad total de monedas de $0.25 ingresadas: "<<d1<<endl;
+	cout<<"Cantidad total en dinero de las monedas de $0.25: "<<e1<<endl;	
+return 0;
 }
