@@ -1,28 +1,36 @@
+//================================================
+//==> Nombre del programa : La edad
+//==> Archivo : MartinezBianka-laedad.cpp
+//==>Autor: Martinez Endara Bianka
+//==>Fecha de elaboración: 2022-05-19
+//==>Fecha ultima actualización: 2022-05-19
+//=================================================
+
 #include<iostream> 
 using namespace std; 
 int main()
-{ int ee, me, de, en, nm, dm, e, m, d; 
+{ int BE_ee, BE_me, BE_de, BE_en, BE_nm, BE_dm, BE_e, BE_m, BE_d; 
 cout<<"ingrese la fecha actual y su fecha de nacimiento";
-cin>>ee>>me>>de>>en>>nm>>dm; 
-if(de>=dm){ 
-d=de-dm; 
+cin>>BE_ee>>BE_me>>BE_de>>BE_en>>BE_nm>>BE_dm; 
+if(BE_de>=BE_dm){ 
+BE_d=BE_de-BE_dm; 
 } 
 else{ 
-me=me-1; 
-dm=dm+30; 
-d=de-dm; 
+BE_me=BE_me-1; 
+BE_dm=BE_dm+30; 
+BE_d=BE_de-BE_dm; 
 }
- if(me>=nm){ 
-m=me-nm; 
+ if(BE_me>=BE_nm){ 
+BE_m=BE_me-BE_nm; 
 } 
 else{ 
-ee=ee-1;
- nm=nm+12; 
-m=me-nm; 
+BE_ee=BE_ee-1;
+BE_nm=BE_nm+12; 
+BE_m=BE_me-BE_nm; 
 } 
-e=ee-en; 
-cout<<"tienes "<<e<<" años "<<endl; 
-cout<<"Con "<<m<<" meses"<<endl; 
-cout<<"y dias"<<d<<endl; 
+BE_e=BE_ee-BE_en; 
+cout<<"tienes "<<BE_e<<" años "<<endl; 
+cout<<"Con "<<BE_m<<" meses"<<endl; 
+cout<<"y dias"<<BE_d<<endl; 
 return 0; 
 }

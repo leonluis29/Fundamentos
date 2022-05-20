@@ -1,16 +1,24 @@
+//================================================
+//==> Nombre del programa: Compara
+//==> Archivo : MartinezBianka-Compara.cpp
+//==>Autor: Martinez Endara Bianka
+//==>Fecha de elaboración: 2022-05-19
+//==>Fecha ultima actualización: 2022-05-19
+//=================================================
+
 #include<iostream>
 using namespace std;
 int main(){
-  float A,B;
-  cout<<"Ingrese el valor de A: "; cin>>A;
-  cout<<"Ingrese el valor de B: "; cin>>B;
-  if(A==B){
-    cout<<"El valor de A= "<<A<<" es igual a B= "<<B<<endl;
+  float BE_a,BE_b;
+  cout<<"Ingrese el valor de BE_a: "; cin>>BE_a;
+  cout<<"Ingrese el valor de BE_b: "; cin>>BE_b;
+  if(BE_a==BE_b){
+    cout<<"El valor de BE_a= "<<BE_a<<" es igual a BE_b= "<<BE_b<<endl;
   }else{
-    if(A<B){
-    cout<<"el valor de A= "<<A<<" es menor a B="<<B<<endl;
+    if(BE_a<BE_b){
+    cout<<"el valor de BE_a= "<<BE_a<<" es menor a BE_b="<<BE_b<<endl;
     }else{
-      cout<<"el valor de y="<<y<<" es menor a x="<<x<<endl;
+      cout<<"el valor de BE_y="<<BE_y<<" es menor a BE_x="<<BE_x<<endl;
     } 
   }
   return 0;
