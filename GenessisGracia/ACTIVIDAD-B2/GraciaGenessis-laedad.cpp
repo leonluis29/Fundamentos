@@ -1,26 +1,26 @@
 #include<iostream>
  using namespace std;
  int main(){ 
-int ab, ma, di, om, lk, dr, e, m, s; 
-cout<<"ingrese la fecha actual y su fecha de nacimiento"; cin>>ab>>ma>>di>>om>>lk>>dr;
- if(di>=dr){ 
-s=di-dr; 
+int GG_ab, GG_ma, GG_di, GG_om, GG_lk, GG_dr, GG_e, GG_m, GG_s; 
+cout<<"ingrese la fecha actual y su fecha de nacimiento"; cin>>GG_ab>>GG_ma>>GG_di>>GG_om>>GG_lk>>GG_dr;
+ if(GG_di>=GG_dr){ 
+GG_s=GG_di-GG_dr; 
 } 
 else{
- ma=ma-1; 
-di=di+30; 
-s=di-dr; 
+ GG_ma=GG_ma-1; 
+GG_di=GG_di+30; 
+GG_s=GG_di-GG_dr; 
 } 
-if(ma>=lk){ 
-m=ma-lk; 
+if(GG_ma>=GG_lk){ 
+GG_m=GG_ma-GG_lk; 
 } 
-else{ ab=ab-1; 
-ma=ma+12; 
-m=ma-lk; 
+else{ GG_ab=GG_ab-1; 
+GG_ma=GG_ma+12; 
+GG_m=GG_ma-GG_lk; 
 }
- e=ab-om; 
-cout<<"tienes "<<e<<" años "<<endl; 
-cout<<"Con "<<m<<" meses"<<endl; 
-cout<<"y dias"<<s<<endl; 
+ GG_e=GG_ab-GG_om; 
+cout<<"tienes "<<GG_e<<" años "<<endl; 
+cout<<"Con "<<GG_m<<" meses"<<endl; 
+cout<<"y dias"<<GG_s<<endl; 
 return 0;
 }

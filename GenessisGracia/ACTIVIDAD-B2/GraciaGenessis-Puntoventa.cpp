@@ -1,19 +1,19 @@
 #include<iostream>
 using namespace std;
 int main(){
-  float p,d=0,e=0,l,ub,vive,vdes,vf;
+  float GG_p,GG_d=0,GG_e=0,GG_l,GG_ub,GG_vive,GG_vdes,GG_vf;
   cout<<"Ingrese la cantidad que desea sumar: ";
-  cin>>l;
+  cin>>GG_l;
   do{
-    cout<<"Ingrese p: ";
-    cin>>p;
-    d=d+1;
-    e=e+p;
-  }while(d<l);
-  ub=e;
-  vive=ub*0.12;
-  vdes=ub*0.10;
-  vf=ub+vive-vdes;
-  cout<<"El valor final a pagar es: "<<vf<<endl;
+    cout<<"Ingrese GG_p: ";
+    cin>>GG_p;
+    GG_d=GG_d+1;
+    GG_e=GG_e+GG_p;
+  }while(GG_d<GG_l);
+  GG_ub=GG_e;
+  GG_vive=GG_ub*0.12;
+  GG_vdes=GG_ub*0.10;
+  GG_vf=GG_ub+GG_vive-GG_vdes;
+  cout<<"El valor final a pagar es: "<<GG_vf<<endl;
   return 0;
 }
