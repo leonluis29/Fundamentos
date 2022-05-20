@@ -1,14 +1,8 @@
-//================================================
-//==> Nombre del programa: Suma de varios numeros
-//==> Archivo : SumaN.cpp
-//==>Autor: Leon Bryan
-//==>Fecha de elaboración: 2022-05-05
-//==>Fecha ultima actualización: 2022-05-19
-//=================================================
 #include<iostream>
 using namespace std;
 int main(){
   float lb_x,lb_c=0,lb_a=0,lb_n,lb_vb,lb_vive,lb_vdes,lb_vf;
+  cout<<"================================================ \n==> Nombre del programa: Sumatoria de varios numeros \n==> Archivo : SumaN.cpp \n==>Autor: Leon Bryan \n==>Fecha de elaboración: 2022-05-05 \n==>Fecha ultima actualización: 2022-5-19 \n================================================="<<endl;
   cout<<"Ingrese la cantidad que desea sumar: ";
   cin>>lb_n;
   do{

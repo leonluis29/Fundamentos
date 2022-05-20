@@ -1,15 +1,8 @@
-//================================================
-//==> Nombre lb_del progralb_ma: La Elb_dad
-//==> Archivo : laelb_dad.cpp
-//==>Autor: Leon Brylb_an
-//==>Fecha lb_de elaboración: 2022-05-05
-//==>Fecha ultilb_ma actualización: 2022-05-19
-//=================================================
-
 #include<iostream>
 using namespace std;
 int main(){
   int lb_ee,lb_ma,lb_de,lb_an,lb_mn,lb_dn,lb_a,lb_md,lb_d,lb_da,lb_m;
+  cout<<"================================================ \n==> Nombre del programa: La edad \n==> Archivo : laedad.cpp \n==>Autor: Leon Bryan \n==>Fecha de elaboración: 2022-05-05 \n==>Fecha ultima actualización: 2022-5-19 \n================================================="<<endl;
   cout<<"Ingrese su nombre: ";
   cin>>lb_ee;
   cout<<"Ingrese su elb_dad: ";

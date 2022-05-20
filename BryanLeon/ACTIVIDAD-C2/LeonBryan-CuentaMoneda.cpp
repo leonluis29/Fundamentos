@@ -1,17 +1,10 @@
-//================================================
-//==> Nombre del programa: Cuenta moneda
-//==> Archivo : Cuenta-Moneda.cpp
-//==>Autor: Leon Bryan
-//==>Fecha de elaboración: 2022-05-05
-//==>Fecha ultima actualización: 2022-05-19
-//=================================================
-
 #include<iostream>
 using namespace std;
 int main()
 {
         int lb_c=0,lb_c1=0,lb_c2=0,lb_n;
         float lb_x,lb_a=0,lb_a1=0,lb_a2=0;
+        cout<<"================================================ \n==> Nombre del programa: Cuenta Moneda \n==> Archivo : CuentaMoneda.cpp \n==>Autor: Leon Bryan \n==>Fecha de elaboración: 2022-05-05 \n==>Fecha ultima actualización: 2022-5-19 \n================================================="<<endl;
         cout<<"ingrese lb_n :";
         cin>>lb_n;
         do{

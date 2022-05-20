@@ -1,15 +1,8 @@
-//================================================
-//==> Nombre del programa: Comparar 2 numeros
-//==> Archivo : Compara.cpp
-//==>Autor: Leon Bryan
-//==>Fecha de elaboración: 2022-05-05
-//==>Fecha ultima actualización: 2022-5-19
-//=================================================
-
 #include<iostream>
 using namespace std;
 int main(){
   float lb_x,lb_y;
+  cout<<"================================================ \n==> Nombre del programa: Comparar 2 numeros \n==> Archivo : Compara.cpp \n==>Autor: Leon Brya==>Fecha de elaboración: 2022-05-05 \n==>Fecha ultima actualización: 2022-5-19 \n================================================="<<endl;
   cout<<"Ingrese el valor de lb_x: "; cin>>lb_x;
   cout<<"Ingrese el valor de lb_y: "; cin>>lb_y;
   if(lb_x==lb_y){

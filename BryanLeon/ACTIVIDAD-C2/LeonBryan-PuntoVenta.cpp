@@ -1,16 +1,9 @@
-//================================================
-//==> Nombre del programa: Punto de Venta
-//==> Archivo : PuntoVenta.cpp
-//==>Autor: Leon Bryan
-//==>Fecha de elaboración: 2022-05-05
-//==>Fecha ultima actualización: 2022-05-19
-//=================================================
-
 #include<iostream>
 using namespace std;
 int main()
 {
         float lb_x,lb_c=0,lb_a=0,lb_n,lb_vb,lb_viva,lb_vdesc,lb_vf;
+        cout<<"================================================ \n==> Nombre del programa: Punto de Venta \n==> Archivo : PuntoVenta.cpp \n==>Autor: Leon Bryan \n==>Fecha de elaboración: 2022-05-05 \n==>Fecha ultima actualización: 2022-5-19 \n================================================="<<endl;
         cout<<"ingrese lb_n :";
         cin>>lb_n;
         do{
